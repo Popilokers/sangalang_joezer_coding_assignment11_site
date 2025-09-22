@@ -2,13 +2,17 @@
 
 all in terminal
 
-1. Build the image:
+1. Get the files:
+
+git clone https://github.com/Popilokers/sangalang_joezer_coding_assignment11_site.git
+
+2. Build the image:
 
 cd sangalang_joezer_site
 
 docker build -t sangalang_joezer_site .
 
-2. Run the container(localhost-only)
+3. Run the container(localhost-only)
 
 docker run -p 7775:7775 sangalang_joezer_site_image
 
