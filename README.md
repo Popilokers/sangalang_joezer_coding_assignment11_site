@@ -5,6 +5,7 @@ all in terminal
 1. Build the image:
 
 cd sangalang_joezer_site
+
 docker build -t sangalang_joezer_site .
 
 2. Run the container(localhost-only)
