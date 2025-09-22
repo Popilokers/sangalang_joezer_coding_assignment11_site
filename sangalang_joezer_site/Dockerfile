@@ -8,4 +8,7 @@ RUN npm install
 
 COPY . . 
 
-CMD ["npm", "run", "dev", "--", "--host=0.0.0.0", "--port=7775"]
+ENV HOST=0.0.0.0
+ENV PORT=7775
+
+CMD ["npm", "run", "dev"]
