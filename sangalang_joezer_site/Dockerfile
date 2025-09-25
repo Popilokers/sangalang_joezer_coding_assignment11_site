@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . . 
 
-ENV HOST=0.0.0.0
+ENV HOST=127.0.0.1
 
 EXPOSE 7775
 
